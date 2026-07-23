@@ -1,0 +1,24 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+
+# Slidev
+.slidev
+.vite-inspect
+.remote-assets
+components.d.ts
+
+# Export artifacts
+*.pdf
+slides-export.md
+*slides-export.pptx
+
+# Local env and overrides
+*.local
+.env
+.env.*
+
+# OS
+.DS_Store
